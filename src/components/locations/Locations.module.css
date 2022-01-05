@@ -1,0 +1,90 @@
+.locations {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url('../../assets/img/new-york-page.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /*to hide the outpart of cloud*/
+    overflow: hidden;
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+    z-index: 1;
+
+}
+
+.header h2 {
+    padding: 1rem 0;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5rem;
+}
+
+.header h3 {
+    padding: 4rem 0;
+    /*text is transparent and the background is gradient*/
+    background: linear-gradient(#131c27, #663b34);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.cloud {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*so we cannot drag the image*/
+    pointer-events: none;
+}
+
+.moving_cloud_1 {
+    opacity: 0.9;
+    animation: cloudAnimation 3s infinite alternate ease-in-out;
+}
+
+.moving_cloud_2 {
+    top: 10%;
+    z-index: -1;
+    opacity: 0.5;
+    animation: cloudAnimation 3.5s infinite alternate ease-in-out;
+
+}
+
+@keyframes cloudAnimation {
+    from {
+        transform: translate(10%, -10%)
+    }
+    to {
+        transform: translate(0%, 0%)
+
+    }
+}
+
+@keyframes cloudAnimation2 {
+    from {
+        transform: translate(10%, -10%)
+    }
+    to {
+        transform: translate(0%, 0%)
+
+    }
+}
+
+@media screen and (max-width: 889px) {
+    .cloud {
+        height: 40rem;
+    }
+
+    .header h3 {
+        /*to change the gradient text we should change also the background*/
+        background: rgba(19, 28, 39, 0.8);
+        -webkxit-background-clip: text;
+        color: whitesmoke;
+        padding: 0 0 0 0.5rem;
+    }
+
+}

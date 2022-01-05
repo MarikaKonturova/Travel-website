@@ -1,0 +1,41 @@
+.main_head {
+    background: #131c27;
+    color: whitesmoke;
+    z-index: 99;
+    top: 0;
+    position: sticky;
+}
+
+nav {
+    /*padding instead of height is better because the size of padding is steady*/
+    /* NO min-height: 10vh;*/
+    padding: 2rem 0;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+}
+
+#logo {
+    flex: 2 1 40rem;
+    font-family: 'Pattaya', sans-serif;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        text-align: center;
+    }
+
+    #logo {
+        padding: 1rem;
+    }
+
+}
