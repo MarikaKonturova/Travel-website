@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Travel-website/static/css/main.8b11ef61.css",
-    "main.js": "/Travel-website/static/js/main.3738e162.js",
+    "main.css": "/Travel-website/static/css/main.98127d50.css",
+    "main.js": "/Travel-website/static/js/main.d7705b12.js",
     "static/js/787.11d8d71f.chunk.js": "/Travel-website/static/js/787.11d8d71f.chunk.js",
     "static/media/landing-page.jpg": "/Travel-website/static/media/landing-page.d46e391c3bb748353a03.jpg",
     "static/media/contact-mountain.png": "/Travel-website/static/media/contact-mountain.6518ba30ec0f9f6bc668.png",
@@ -14,12 +14,12 @@
     "static/media/plane-departure-solid.svg": "/Travel-website/static/media/plane-departure-solid.fb6fbde6fd4ec618c437d11df6945e12.svg",
     "static/media/route-solid.svg": "/Travel-website/static/media/route-solid.1fcd7387db05cc23c33c62d79ad05c2d.svg",
     "static/media/bed-solid.svg": "/Travel-website/static/media/bed-solid.5facbb7bc6504c4261fc2e755304be44.svg",
-    "main.8b11ef61.css.map": "/Travel-website/static/css/main.8b11ef61.css.map",
-    "main.3738e162.js.map": "/Travel-website/static/js/main.3738e162.js.map",
+    "main.98127d50.css.map": "/Travel-website/static/css/main.98127d50.css.map",
+    "main.d7705b12.js.map": "/Travel-website/static/js/main.d7705b12.js.map",
     "787.11d8d71f.chunk.js.map": "/Travel-website/static/js/787.11d8d71f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b11ef61.css",
-    "static/js/main.3738e162.js"
+    "static/css/main.98127d50.css",
+    "static/js/main.d7705b12.js"
   ]
 }
