@@ -15,21 +15,21 @@ export function Benefits() {
         <div className={s.cards}>
             <div className={s.card}>
                 <div className={s.card_icon}>
-                    <img src={route} alt={''}/>
+                    <img src={route} alt={'route'}/>
                 </div>
                 <h4>Travel</h4>
                 <p>Travel In over 250 countries no effort.</p>
             </div>
             <div className={s.card}>
                 <div className={s.card_icon}>
-                    <img src={bed} alt={''}/>
+                    <img src={bed} alt={'bed'}/>
                 </div>
                 <h4>Hotel</h4>
                 <p>Hotels locates near popular areas.</p>
             </div>
             <div className={s.card}>
                 <div className={s.card_icon}>
-                    <img src={plane} alt={''}/>
+                    <img src={plane} alt={'plane'}/>
                 </div>
                 <h4>Fly</h4>
                 <p>Flight included in every purchased trip.</p>
