@@ -9,6 +9,7 @@ export function Locations() {
             <h2>The Perfect Travelling Experience</h2>
             <h3> We cover everything from picking the perfect hotel, flight and travelling destination</h3>
         </header>
+        {/*due to clouds are decor we don't need to write alt tag*/}
         <img src={cloud} alt="" className={`${s.moving_cloud_1} ${s.cloud}`}/>
         <img src={cloud} alt="" className={`${s.moving_cloud_2} ${s.cloud}`}/>
     </section>

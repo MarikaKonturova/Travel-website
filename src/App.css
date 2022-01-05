@@ -50,8 +50,10 @@ button:hover {
     background: #2d4460;
 
 }
-
-button:active {
+/*for keyboard accessibility*/
+button:focus {
+    background: #2c3f57;
+    outline-style: solid;
 }
 
 @media screen and (max-width: 889px) {
